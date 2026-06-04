@@ -1,0 +1,6 @@
+{
+  "name": "SignLearn",
+  "description": "An educational sign language learning app featuring vocabulary, video demonstrations, and quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,266 @@
+{
+  "family": {
+    "name": "Family",
+    "iconName": "users",
+    "color": "bg-blue-500",
+    "words": {
+      "father": {
+        "name": "Father",
+        "description": "The sign for Father.",
+        "imageUrl": "https://loremflickr.com/400/300/father",
+        "videoUrl": "https://www.youtube.com/watch?v=F7sGJVUrkjQ&list=RDF7sGJVUrkjQ&start_radio=1"
+      },
+      "mother": {
+        "name": "Mother",
+        "description": "The sign for Mother.",
+        "imageUrl": "https://loremflickr.com/400/300/mother",
+        "videoUrl": "https://example.com/videos/mother.mp4"
+      },
+      "brother": {
+        "name": "Brother",
+        "description": "The sign for Brother.",
+        "imageUrl": "https://loremflickr.com/400/300/brother",
+        "videoUrl": "https://example.com/videos/brother.mp4"
+      },
+      "sister": {
+        "name": "Sister",
+        "description": "The sign for Sister.",
+        "imageUrl": "https://loremflickr.com/400/300/sister",
+        "videoUrl": "https://example.com/videos/sister.mp4"
+      },
+      "grandfather": {
+        "name": "Grandfather",
+        "description": "The sign for Grandfather.",
+        "imageUrl": "https://loremflickr.com/400/300/grandfather",
+        "videoUrl": "https://example.com/videos/grandfather.mp4"
+      },
+      "grandmother": {
+        "name": "Grandmother",
+        "description": "The sign for Grandmother.",
+        "imageUrl": "https://loremflickr.com/400/300/grandmother",
+        "videoUrl": "https://example.com/videos/grandmother.mp4"
+      },
+      "uncle": {
+        "name": "Uncle",
+        "description": "The sign for Uncle.",
+        "imageUrl": "https://loremflickr.com/400/300/grandmother",
+        "videoUrl": "https://example.com/videos/grandmother.mp4"
+      },
+      "niece": {
+        "name": "Niece",
+        "description": "The sign for Niece.",
+        "imageUrl": "https://loremflickr.com/400/300/grandmother",
+        "videoUrl": "https://example.com/videos/grandmother.mp4"
+      }
+    }
+  },
+  "school": {
+    "name": "School",
+    "iconName": "school",
+    "color": "bg-green-500",
+    "words": {
+      "teacher": {
+        "name": "Teacher",
+        "description": "The sign for Teacher.",
+        "imageUrl": "https://loremflickr.com/400/300/teacher",
+        "videoUrl": "https://example.com/videos/teacher.mp4"
+      },
+      "student": {
+        "name": "Student",
+        "description": "The sign for Student.",
+        "imageUrl": "https://loremflickr.com/400/300/student",
+        "videoUrl": "https://example.com/videos/student.mp4"
+      },
+      "classroom": {
+        "name": "Classroom",
+        "description": "The sign for Classroom.",
+        "imageUrl": "https://loremflickr.com/400/300/classroom",
+        "videoUrl": "https://example.com/videos/classroom.mp4"
+      },
+      "book": {
+        "name": "Book",
+        "description": "The sign for Book.",
+        "imageUrl": "https://loremflickr.com/400/300/book",
+        "videoUrl": "https://example.com/videos/book.mp4"
+      },
+      "pencil": {
+        "name": "Pencil",
+        "description": "The sign for Pencil.",
+        "imageUrl": "https://loremflickr.com/400/300/pencil",
+        "videoUrl": "https://example.com/videos/pencil.mp4"
+      },
+      "bag": {
+        "name": "School Bag",
+        "description": "The sign for School Bag.",
+        "imageUrl": "https://loremflickr.com/400/300/backpack",
+        "videoUrl": "https://example.com/videos/bag.mp4"
+      }
+    }
+  },
+  "animals": {
+    "name": "Animals",
+    "iconName": "cat",
+    "color": "bg-orange-500",
+    "words": {
+      "cat": {
+        "name": "Cat",
+        "description": "The sign for Cat.",
+        "imageUrl": "https://loremflickr.com/400/300/cat",
+        "videoUrl": "https://example.com/videos/cat.mp4"
+      },
+      "dog": {
+        "name": "Dog",
+        "description": "The sign for Dog.",
+        "imageUrl": "https://loremflickr.com/400/300/dog",
+        "videoUrl": "https://example.com/videos/dog.mp4"
+      },
+      "bird": {
+        "name": "Bird",
+        "description": "The sign for Bird.",
+        "imageUrl": "https://loremflickr.com/400/300/bird",
+        "videoUrl": "https://example.com/videos/bird.mp4"
+      },
+      "fish": {
+        "name": "Fish",
+        "description": "The sign for Fish.",
+        "imageUrl": "https://loremflickr.com/400/300/fish",
+        "videoUrl": "https://example.com/videos/fish.mp4"
+      },
+      "rabbit": {
+        "name": "Rabbit",
+        "description": "The sign for Rabbit.",
+        "imageUrl": "https://loremflickr.com/400/300/rabbit",
+        "videoUrl": "https://example.com/videos/rabbit.mp4"
+      },
+      "elephant": {
+        "name": "Elephant",
+        "description": "The sign for Elephant.",
+        "imageUrl": "https://loremflickr.com/400/300/elephant",
+        "videoUrl": "https://example.com/videos/elephant.mp4"
+      }
+    }
+  },
+  "buildings": {
+    "name": "Buildings",
+    "iconName": "building",
+    "color": "bg-indigo-500",
+    "words": {
+      "house": {
+        "name": "House",
+        "description": "The sign for House.",
+        "imageUrl": "https://loremflickr.com/400/300/house",
+        "videoUrl": "https://example.com/videos/house.mp4"
+      },
+      "hospital": {
+        "name": "Hospital",
+        "description": "The sign for Hospital.",
+        "imageUrl": "https://loremflickr.com/400/300/hospital",
+        "videoUrl": "https://example.com/videos/hospital.mp4"
+      },
+      "school": {
+        "name": "School",
+        "description": "The sign for School building.",
+        "imageUrl": "https://loremflickr.com/400/300/school-building",
+        "videoUrl": "https://example.com/videos/school_building.mp4"
+      },
+      "mosque": {
+        "name": "Mosque",
+        "description": "The sign for Mosque.",
+        "imageUrl": "https://loremflickr.com/400/300/mosque",
+        "videoUrl": "https://example.com/videos/mosque.mp4"
+      },
+      "library": {
+        "name": "Library",
+        "description": "The sign for Library.",
+        "imageUrl": "https://loremflickr.com/400/300/library",
+        "videoUrl": "https://example.com/videos/library.mp4"
+      },
+      "police": {
+        "name": "Police Station",
+        "description": "The sign for Police Station.",
+        "imageUrl": "https://loremflickr.com/400/300/police-station",
+        "videoUrl": "https://example.com/videos/police_station.mp4"
+      }
+    }
+  },
+  "food": {
+    "name": "Food & Drinks",
+    "iconName": "apple",
+    "color": "bg-red-500",
+    "words": {
+      "rice": {
+        "name": "Rice",
+        "description": "The sign for Rice.",
+        "imageUrl": "https://loremflickr.com/400/300/rice",
+        "videoUrl": "https://example.com/videos/rice.mp4"
+      },
+      "bread": {
+        "name": "Bread",
+        "description": "The sign for Bread.",
+        "imageUrl": "https://loremflickr.com/400/300/bread",
+        "videoUrl": "https://example.com/videos/bread.mp4"
+      },
+      "water": {
+        "name": "Water",
+        "description": "The sign for Water.",
+        "imageUrl": "https://loremflickr.com/400/300/water",
+        "videoUrl": "https://example.com/videos/water.mp4"
+      },
+      "milk": {
+        "name": "Milk",
+        "description": "The sign for Milk.",
+        "imageUrl": "https://loremflickr.com/400/300/milk",
+        "videoUrl": "https://example.com/videos/milk.mp4"
+      },
+      "apple": {
+        "name": "Apple",
+        "description": "The sign for Apple.",
+        "imageUrl": "https://loremflickr.com/400/300/apple",
+        "videoUrl": "https://example.com/videos/apple.mp4"
+      },
+      "banana": {
+        "name": "Banana",
+        "description": "The sign for Banana.",
+        "imageUrl": "https://loremflickr.com/400/300/banana",
+        "videoUrl": "https://example.com/videos/banana.mp4"
+      }
+    }
+  },
+  "transport": {
+    "name": "Transportation",
+    "iconName": "bus",
+    "color": "bg-yellow-500",
+    "words": {
+      "car": {
+        "name": "Car",
+        "description": "The sign for Car.",
+        "imageUrl": "https://loremflickr.com/400/300/car",
+        "videoUrl": "https://example.com/videos/car.mp4"
+      },
+      "bus": {
+        "name": "Bus",
+        "description": "The sign for Bus.",
+        "imageUrl": "https://loremflickr.com/400/300/bus",
+        "videoUrl": "https://example.com/videos/bus.mp4"
+      },
+      "motorcycle": {
+        "name": "Motorcycle",
+        "description": "The sign for Motorcycle.",
+        "imageUrl": "https://loremflickr.com/400/300/motorcycle",
+        "videoUrl": "https://example.com/videos/motorcycle.mp4"
+      },
+      "bicycle": {
+        "name": "Bicycle",
+        "description": "The sign for Bicycle.",
+        "imageUrl": "https://loremflickr.com/400/300/bicycle",
+        "videoUrl": "https://example.com/videos/bicycle.mp4"
+      },
+      "train": {
+        "name": "Train",
+        "description": "The sign for Train.",
+        "imageUrl": "https://loremflickr.com/400/300/train",
+        "videoUrl": "https://example.com/videos/train.mp4"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-background: #FFFDF5;
+  --color-foreground: #1E293B;
+  --color-muted: #F1F5F9;
+  --color-muted-foreground: #64748B;
+  --color-accent: #8B5CF6;
+  --color-accent-foreground: #FFFFFF;
+  --color-secondary: #F472B6;
+  --color-tertiary: #FBBF24;
+  --color-quaternary: #34D399;
+  --color-border: #E2E8F0;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  /* Playful dot grid background */
+  background-image: radial-gradient(circle, #E2E8F0 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
