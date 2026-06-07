@@ -1,8 +1,6 @@
 const PLACEHOLDER_HOSTS = new Set([
   'example.com',
   'www.example.com',
-  'loremflickr.com',
-  'www.loremflickr.com',
 ]);
 
 const DIRECT_VIDEO_EXTENSIONS = /\.(mp4|webm|ogg)$/i;
@@ -37,6 +35,34 @@ export function getYoutubeEmbedUrl(rawUrl?: string) {
     return null;
   }
 
+  const videoId = getYoutubeVideoId(url);
+
+  return videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+}
+
+export function getYoutubeThumbnailUrl(rawUrl?: string) {
+  const url = parseHttpsUrl(rawUrl);
+  if (!url) {
+    return null;
+  }
+
+  const videoId = getYoutubeVideoId(url);
+  return videoId ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` : null;
+}
+
+export function hasPlayableVideo(rawUrl?: string) {
+  const sanitizedUrl = sanitizeMediaUrl(rawUrl);
+  if (!sanitizedUrl) {
+    return false;
+  }
+
+  return Boolean(
+    getYoutubeEmbedUrl(sanitizedUrl) ||
+      DIRECT_VIDEO_EXTENSIONS.test(new URL(sanitizedUrl).pathname),
+  );
+}
+
+function getYoutubeVideoId(url: URL) {
   let videoId: string | null = null;
 
   if (url.hostname === 'youtu.be') {
@@ -50,19 +76,5 @@ export function getYoutubeEmbedUrl(rawUrl?: string) {
     }
   }
 
-  return videoId && videoId.length === 11
-    ? `https://www.youtube.com/embed/${videoId}`
-    : null;
-}
-
-export function hasPlayableVideo(rawUrl?: string) {
-  const sanitizedUrl = sanitizeMediaUrl(rawUrl);
-  if (!sanitizedUrl) {
-    return false;
-  }
-
-  return Boolean(
-    getYoutubeEmbedUrl(sanitizedUrl) ||
-      DIRECT_VIDEO_EXTENSIONS.test(new URL(sanitizedUrl).pathname),
-  );
+  return videoId && videoId.length === 11 ? videoId : null;
 }
