@@ -1,7 +1,7 @@
 import { Category, Word } from './types';
 import rawData from './data.json';
 import { msTranslations, descriptions } from './translations';
-import { sanitizeMediaUrl } from './media';
+import { getYoutubeThumbnailUrl, sanitizeMediaUrl } from './media';
 
 const parsedCategories: Category[] = [];
 const parsedWords: Word[] = [];
@@ -26,13 +26,16 @@ Object.entries(rawData).forEach(([categoryId, categoryData]) => {
   });
 
   Object.entries(categoryData.words).forEach(([wordKey, wordData]) => {
+    const sanitizedImageUrl = sanitizeMediaUrl(wordData.imageUrl);
+    const sanitizedVideoUrl = sanitizeMediaUrl(wordData.videoUrl);
+
     parsedWords.push({
       id: `${categoryId}_${wordKey}`,
       categoryId,
       name: wordData.name,
       description: wordData.description,
-      imageUrl: sanitizeMediaUrl(wordData.imageUrl) || '',
-      videoUrl: sanitizeMediaUrl(wordData.videoUrl) || '',
+      imageUrl: sanitizedImageUrl || getYoutubeThumbnailUrl(sanitizedVideoUrl) || '',
+      videoUrl: sanitizedVideoUrl || '',
       translations: {
         en: {
           name: wordData.name,
